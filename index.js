@@ -1,6 +1,6 @@
 const batteryBatches = [4, 5, 3, 4, 4, 6, 5];
 function totalBatteries(arr){
-  let total=arr.reduce((ele)=>{
+  let totalBatteries=batteryBatches.reduce((ele)=>{
    return total+=ele;
   },0)
   return total
