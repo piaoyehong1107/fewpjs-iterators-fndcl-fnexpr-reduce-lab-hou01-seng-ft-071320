@@ -5,5 +5,6 @@ function totalBatteries(arr){
   let total=arr.reduce((ele)=>{
    return total+=ele;
   },0)
+  return total
 }
 
