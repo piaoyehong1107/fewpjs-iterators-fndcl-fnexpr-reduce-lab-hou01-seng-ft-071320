@@ -5,5 +5,6 @@ function totalBatteries(arr){
   arr.reduce((ele)=>{
     total+=ele
   })
+  return total;
 }
 
